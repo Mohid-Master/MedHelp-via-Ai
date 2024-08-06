@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body{
+    display:grid;
+    align-items: center;
+    justify-content: center;
+}
+.navContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  margin: 10px 20px;
+  background-color: #83ed7b;
+  border-bottom: 1px solid transparent;
+  border-radius: 10px;
+}
+
+.logoContainer {
+  /* Add your logo styles here */
+}
+
+.navUtilitiesdContainer {
+  /* Add your navigation utilities styles here */
+}
+
+.mainCaraousalContainer {
+  height: 50vh;
+  width: 90vw;
+  border-radius: 30px;
+  background: rgb(170, 253, 252);
+  background: -moz-linear-gradient(
+    139deg,
+    rgba(170, 253, 252, 1) 0%,
+    rgba(124, 229, 139, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    139deg,
+    rgba(170, 253, 252, 1) 0%,
+    rgba(124, 229, 139, 1) 100%
+  );
+  background: linear-gradient(
+    139deg,
+    rgba(170, 253, 252, 1) 0%,
+    rgba(124, 229, 139, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#aafdfc",endColorstr="#7ce58b",GradientType=1);
+ display: flex;align-items: center;justify-content: center;
+}
